@@ -14,6 +14,10 @@ ul {
     padding: 0;
 }
 
+h1 {
+    color: white;
+}
+
 body {
     font-size: 100%
 }
@@ -28,7 +32,7 @@ a {
 }
 
 .title {
-    margin: 0 auto;
+    margin-left: 300px;
     width: 960px;
 }
 
@@ -38,9 +42,9 @@ a {
 }
 
 .nav {
-    background-color: #222;
+    background-color: #20B2AA;
     border-color: black;
-    min-height: 64px;
+    height: 64px;
 }
 
 .nav li {
@@ -50,18 +54,18 @@ a {
 
 .nav a {
     display : block;
-    color: black;
+    color: white;
     line-height: 4em;
     text-align: center;
 }
 
 .nav li a:hover {
-    color: red;
-    background-color: white;
+    color: white;
+    background-color: #008080;
 }
 
 .auth {
-    padding: 15px 0;
+    padding: 25px 0;
     float: right;
 }
 
@@ -84,10 +88,10 @@ a {
 }
 
 .category_title {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #777;
+    padding-bottom: 15px;
     font-size: 36px;
-    text-align: center;
+    padding-left: 325px;
+    color: white;
 }
 
 .pr_item-outer {
@@ -95,6 +99,7 @@ a {
     float: left;
     padding-left: 5px;
     padding-right: 5px;
+    color: white;
     width: 33.33%;
     box-sizing: border-box;
 }
@@ -104,5 +109,6 @@ a {
 }
 
 .pr_text {
-    padding: 0 20px 20px 20px;
+    padding: 0 5px 5px 20px;
+    outline: none;
 }

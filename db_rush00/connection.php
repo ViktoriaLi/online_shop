@@ -7,6 +7,6 @@ ini_set('error_reporting', E_ALL);
 $host = 'localhost';
 $database = 'bd_rush00';
 $user = 'root';
-$password = '311331';
+$password = '20081991';
 
 ?>
