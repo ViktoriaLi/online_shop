@@ -1,0 +1,108 @@
+html {
+    background-image: url("https://99px.ru/sstorage/53/2012/03/tmb_38472_2589.jpg");
+}
+
+footer,
+header,
+main,
+nav {
+    display : block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%
+}
+
+ul li {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.nav {
+    background-color: #222;
+    border-color: black;
+    min-height: 64px;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+}
+
+.nav a {
+    display : block;
+    color: black;
+    line-height: 4em;
+    text-align: center;
+}
+
+.nav li a:hover {
+    color: red;
+    background-color: white;
+}
+
+.auth {
+    padding: 15px 0;
+    float: right;
+}
+
+.login input[type="text"],
+.login input[type="[password]"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.login input[type="submit"] {
+    padding: 5px 15px;
+    margin-right: 5px;
+    border: 1px solid yellow;
+}
+
+.products {
+    overflow: auto;
+}
+
+.category_title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 36px;
+    text-align: center;
+}
+
+.pr_item-outer {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.pr_item {
+    width: 100%;
+}
+
+.pr_text {
+    padding: 0 20px 20px 20px;
+}
