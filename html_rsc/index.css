@@ -36,6 +36,11 @@ a {
     width: 960px;
 }
 
+.title h1{
+    margin-left: 200px;
+
+}
+
 .header {
     padding: 50px 0;
     text-align: center;
@@ -90,7 +95,7 @@ a {
 .category_title {
     padding-bottom: 15px;
     font-size: 36px;
-    padding-left: 325px;
+    padding-left: 225px;
     color: white;
 }
 
@@ -104,6 +109,15 @@ a {
     box-sizing: border-box;
 }
 
+.main_img {
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    box-sizing: border-box;
+}
+
 .pr_item {
     width: 100%;
 }
@@ -111,4 +125,9 @@ a {
 .pr_text {
     padding: 0 5px 5px 20px;
     outline: none;
+}
+
+.copyright {
+    text-align: right;
+    color: white;
 }
